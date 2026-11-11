@@ -1,0 +1,230 @@
+/* General Styling */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background: #f2f4f8;
+
+    color: #333;
+
+}
+
+/* Navigation Bar */
+
+header {
+
+    background: #174ea6;
+
+    padding: 20px 7%;
+
+}
+
+nav {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+nav h1 {
+
+    color: white;
+
+    font-size: 28px;
+
+}
+
+nav ul {
+
+    display: flex;
+
+    list-style: none;
+
+    gap: 25px;
+
+}
+
+nav ul li a {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
+
+nav ul li a:hover {
+
+    color: #dbeafe;
+
+}
+
+/* Hero Section */
+
+.hero {
+
+    text-align: center;
+
+    padding: 110px 20px;
+
+    background: linear-gradient(135deg, #174ea6, #3975cf);
+
+    color: white;
+
+}
+
+.hero h2 {
+
+    font-size: 42px;
+
+    margin-bottom: 20px;
+
+}
+
+.hero p {
+
+    font-size: 18px;
+
+    max-width: 650px;
+
+    margin: 0 auto 30px;
+
+    line-height: 1.7;
+
+}
+
+.btn {
+
+    display: inline-block;
+
+    background: white;
+
+    color: #174ea6;
+
+    padding: 13px 25px;
+
+    border-radius: 5px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    margin: 8px;
+
+}
+
+.btn:hover {
+
+    background: #e5e7eb;
+
+}
+
+.btn.secondary {
+
+    background: transparent;
+
+    border: 2px solid white;
+
+    color: white;
+
+}
+
+/* About Section */
+
+.about {
+
+    padding: 70px 20px;
+
+    text-align: center;
+
+    background: white;
+
+}
+
+.about h2 {
+
+    color: #174ea6;
+
+    font-size: 30px;
+
+    margin-bottom: 20px;
+
+}
+
+.about p {
+
+    max-width: 750px;
+
+    margin: auto;
+
+    line-height: 1.8;
+
+    font-size: 17px;
+
+}
+
+/* Footer */
+
+footer {
+
+    background: #123d82;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+}
+
+/* Mobile Responsiveness */
+
+@media (max-width: 600px) {
+
+    nav {
+
+        flex-direction: column;
+
+        gap: 20px;
+
+    }
+
+    nav ul {
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+        gap: 15px;
+
+    }
+
+    .hero h2 {
+
+        font-size: 30px;
+
+    }
+
+    .hero {
+
+        padding: 80px 20px;
+
+    }
+
+}
+ 
